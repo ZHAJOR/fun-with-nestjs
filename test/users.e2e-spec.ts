@@ -1,7 +1,7 @@
 import * as request from 'supertest';
 import { Test } from '@nestjs/testing';
-import { UsersModule } from '../src/users.module';
-import { UsersService } from '../src/users.service';
+import { UsersModule } from '@modules/users/users.module';
+import { UsersService } from '@modules/users/users.service';
 import { INestApplication } from '@nestjs/common';
 
 describe('Cats', () => {
