@@ -4,7 +4,7 @@ import { UsersModule } from '@modules/users/users.module';
 import { UsersService } from '@modules/users/users.service';
 import { INestApplication } from '@nestjs/common';
 
-describe('Cats', () => {
+describe('Users', () => {
     let app: INestApplication;
     // const usersService = { findAll: () => ['test'] };
     const userExample = {

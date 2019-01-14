@@ -17,6 +17,9 @@ $ node dist/server.js
   
 # run
 $ yarn run start
+  
+# generate the swagger file
+$ yarn run swagger
 
 ```
 
